@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  FresHealth
+
+  Created by mac on 2024/12/18.
+  
+*/
+"login" = "Login";
+"username" = "Username";
+"email" = "E-mail";
+"password" = "Password";
+"password2" = "Comfirm Password";
+"register" = "Register";
+"Welcome!" = "Welcome!";
+"Choose your avatar" = "Choose your avatar";
+"and type your name" = "and type your name";
+"next" = "Next";
+"pwtip1" = "Use over 8-digit password";
+"pwtip2" = "with special symbols.";
+"pwtip3" = "Please keep it if necessary.";
+
