@@ -10,25 +10,33 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView().tabItem {
-                Image(systemName: "house.fill")
-                Text("Home")
-            }.tag(0)
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                .tag(0)
 
-            WaterView().tabItem {
-                Image(systemName: "drop.fill")
-                Text("Record")
-            }.tag(1)
+            RecordListView()
+                .tabItem {
+                    Image(systemName: "drop.fill")
+                    Text("Record")
+                }
+                .tag(1)
 
-            ForumView().tabItem {
-                Image(systemName: "bubble.left.and.bubble.right.fill")
-                Text("Community")
-            }.tag(2)
+            ForumView()
+                .tabItem {
+                    Image(systemName: "bubble.left.and.bubble.right.fill")
+                    Text("Community")
+                }
+                .tag(2)
             
-            ProfileView().tabItem {
-                Image(systemName: "person.fill")
-                Text("Profile")
-            }.tag(3)
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Profile")
+                }
+                .tag(3)
         }
     }
 }
@@ -45,7 +53,6 @@ struct VisualEffectBlur: UIViewRepresentable {
         uiView.effect = UIBlurEffect(style: blurStyle)
     }
 }
-
 
 #Preview {
     ContentView()

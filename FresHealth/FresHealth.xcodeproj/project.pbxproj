@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		041737CD2D5D8148009425BF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 041737CC2D5D8148009425BF /* Alamofire */; };
+		041737D22D5D861B009425BF /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 041737D12D5D861B009425BF /* SQLite */; };
+		0418D2CB2D5D7F1800654690 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0418D2CA2D5D7F1800654690 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		047E886D2D0D5F9D001E8F6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041737D22D5D861B009425BF /* SQLite in Frameworks */,
+				041737CD2D5D8148009425BF /* Alamofire in Frameworks */,
+				0418D2CB2D5D7F1800654690 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +134,9 @@
 			);
 			name = FresHealth;
 			packageProductDependencies = (
+				0418D2CA2D5D7F1800654690 /* Alamofire */,
+				041737CC2D5D8148009425BF /* Alamofire */,
+				041737D12D5D861B009425BF /* SQLite */,
 			);
 			productName = FresHealth;
 			productReference = 047E885C2D0D5F9C001E8F6A /* FresHealth.app */;
@@ -210,6 +222,10 @@
 			);
 			mainGroup = 047E88532D0D5F9C001E8F6A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				041737CB2D5D8148009425BF /* XCLocalSwiftPackageReference "../../Documents/Alamofire" */,
+				041737D02D5D861B009425BF /* XCLocalSwiftPackageReference "../../Documents/SQLite" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 047E885D2D0D5F9C001E8F6A /* Products */;
 			projectDirPath = "";
@@ -575,6 +591,32 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		041737CB2D5D8148009425BF /* XCLocalSwiftPackageReference "../../Documents/Alamofire" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Documents/Alamofire;
+		};
+		041737D02D5D861B009425BF /* XCLocalSwiftPackageReference "../../Documents/SQLite" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Documents/SQLite;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		041737CC2D5D8148009425BF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alamofire;
+		};
+		041737D12D5D861B009425BF /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SQLite;
+		};
+		0418D2CA2D5D7F1800654690 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 047E88542D0D5F9C001E8F6A /* Project object */;
 }
