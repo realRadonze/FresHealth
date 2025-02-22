@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Image</title>
+</head>
+<body>
+    <form action="uploadPhoto.php" method="post" enctype="multipart/form-data">
+        <label for="id">User ID:</label>
+        <input type="text" name="id" id="id" required>
+        <br><br>
+        <label for="file">Choose an image to upload:</label>
+        <input type="file" name="file" id="file" required>
+        <br><br>
+        <input type="submit" value="Upload Image">
+    </form>
+</body>
+</html>
